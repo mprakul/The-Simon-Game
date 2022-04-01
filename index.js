@@ -9,7 +9,7 @@ function startOver(){ // resets the whole game
 }
 
 function playSound(name){
-   var z = new Audio("sounds/"+name+".mp3");
+   var z = new Audio(name+".mp3");
    z.play();
 }
 
